@@ -9,10 +9,10 @@
     "## By Ayomide (Enoch) Fadeyi\n",
     "\n",
     "## Introduction\n",
-    "> Introducing my dataset\n",
-    "*** Loan Data from Prosper: This data set contains 113,937 observations (loans) with 81 features (variables/columns) on each loan, including loan amount, borrower rate (or interest rate), current loan status, borrower income, and many others. \n",
-    "Here is the link to the data dictionary to understand the dataset's variables: \n",
-    "https://docs.google.com/spreadsheets/d/1gDyi_L4UvIrLTEC6Wri5nbaMmkGmLQBk-Yx3z0XDEtI/edit#gid=0\n",
+    "> Introduce the dataset\n",
+    "\n",
+    "Prosper Loan Dataset contains information on peer to peer loans facilitated by Prosper, a credit company.\n",
+    "There are 113937 observations(rows) and 81 features(columns).\n",
     "\n",
     "\n",
     "##  General Research Question guiding my analysis\n",
@@ -1041,28 +1041,28 @@
        "  </thead>\n",
        "  <tbody>\n",
        "    <tr>\n",
-       "      <th>53238</th>\n",
-       "      <td>6F89358553250456073240F</td>\n",
-       "      <td>867245</td>\n",
-       "      <td>2013-08-12 10:09:54.763000000</td>\n",
-       "      <td>NaN</td>\n",
-       "      <td>60</td>\n",
-       "      <td>Current</td>\n",
-       "      <td>NaN</td>\n",
-       "      <td>0.13942</td>\n",
-       "      <td>0.1169</td>\n",
-       "      <td>0.1069</td>\n",
+       "      <th>21292</th>\n",
+       "      <td>5C6A34186602388385E0C09</td>\n",
+       "      <td>311731</td>\n",
+       "      <td>2008-04-16 07:43:26.263000000</td>\n",
+       "      <td>AA</td>\n",
+       "      <td>36</td>\n",
+       "      <td>Completed</td>\n",
+       "      <td>2008-09-25 00:00:00</td>\n",
+       "      <td>0.05622</td>\n",
+       "      <td>0.0495</td>\n",
+       "      <td>0.0395</td>\n",
        "      <td>...</td>\n",
-       "      <td>-92.81</td>\n",
+       "      <td>-20.23</td>\n",
        "      <td>0.0</td>\n",
        "      <td>0.0</td>\n",
        "      <td>0.0</td>\n",
        "      <td>0.0</td>\n",
        "      <td>1.0</td>\n",
-       "      <td>0</td>\n",
-       "      <td>0</td>\n",
-       "      <td>0.0</td>\n",
+       "      <td>3</td>\n",
        "      <td>1</td>\n",
+       "      <td>550.0</td>\n",
+       "      <td>130</td>\n",
        "    </tr>\n",
        "  </tbody>\n",
        "</table>\n",
@@ -1071,22 +1071,22 @@
       ],
       "text/plain": [
        "                    ListingKey  ListingNumber            ListingCreationDate  \\\n",
-       "53238  6F89358553250456073240F         867245  2013-08-12 10:09:54.763000000   \n",
+       "21292  5C6A34186602388385E0C09         311731  2008-04-16 07:43:26.263000000   \n",
        "\n",
-       "      CreditGrade  Term LoanStatus ClosedDate  BorrowerAPR  BorrowerRate  \\\n",
-       "53238         NaN    60    Current        NaN      0.13942        0.1169   \n",
+       "      CreditGrade  Term LoanStatus           ClosedDate  BorrowerAPR  \\\n",
+       "21292          AA    36  Completed  2008-09-25 00:00:00      0.05622   \n",
        "\n",
-       "       LenderYield  ...  LP_ServiceFees  LP_CollectionFees  \\\n",
-       "53238       0.1069  ...          -92.81                0.0   \n",
+       "       BorrowerRate  LenderYield  ...  LP_ServiceFees  LP_CollectionFees  \\\n",
+       "21292        0.0495       0.0395  ...          -20.23                0.0   \n",
        "\n",
        "       LP_GrossPrincipalLoss  LP_NetPrincipalLoss  \\\n",
-       "53238                    0.0                  0.0   \n",
+       "21292                    0.0                  0.0   \n",
        "\n",
        "      LP_NonPrincipalRecoverypayments  PercentFunded  Recommendations  \\\n",
-       "53238                             0.0            1.0                0   \n",
+       "21292                             0.0            1.0                3   \n",
        "\n",
        "      InvestmentFromFriendsCount InvestmentFromFriendsAmount Investors  \n",
-       "53238                          0                         0.0         1  \n",
+       "21292                          1                       550.0       130  \n",
        "\n",
        "[1 rows x 81 columns]"
       ]
@@ -1403,137 +1403,137 @@
        "  </thead>\n",
        "  <tbody>\n",
        "    <tr>\n",
-       "      <th>102179</th>\n",
-       "      <td>36</td>\n",
+       "      <th>43952</th>\n",
+       "      <td>60</td>\n",
        "      <td>Current</td>\n",
-       "      <td>0.1435</td>\n",
-       "      <td>B</td>\n",
+       "      <td>0.1169</td>\n",
+       "      <td>A</td>\n",
+       "      <td>20</td>\n",
+       "      <td>Employed</td>\n",
+       "      <td>0.0</td>\n",
+       "      <td>6000.000000</td>\n",
+       "      <td>NaN</td>\n",
+       "      <td>15000</td>\n",
+       "      <td>2013-07-26 00:00:00</td>\n",
+       "      <td>0</td>\n",
+       "      <td>132</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>25329</th>\n",
+       "      <td>36</td>\n",
+       "      <td>Past Due (31-60 days)</td>\n",
+       "      <td>0.3134</td>\n",
+       "      <td>HR</td>\n",
+       "      <td>13</td>\n",
+       "      <td>Other</td>\n",
+       "      <td>0.0</td>\n",
+       "      <td>0.083333</td>\n",
+       "      <td>NaN</td>\n",
+       "      <td>4000</td>\n",
+       "      <td>2013-02-22 00:00:00</td>\n",
+       "      <td>0</td>\n",
+       "      <td>58</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>82752</th>\n",
+       "      <td>60</td>\n",
+       "      <td>Current</td>\n",
+       "      <td>0.1840</td>\n",
+       "      <td>C</td>\n",
        "      <td>1</td>\n",
        "      <td>Employed</td>\n",
        "      <td>0.0</td>\n",
-       "      <td>5000.000000</td>\n",
+       "      <td>9583.333333</td>\n",
        "      <td>NaN</td>\n",
-       "      <td>5500</td>\n",
+       "      <td>15000</td>\n",
        "      <td>2013-12-09 00:00:00</td>\n",
        "      <td>0</td>\n",
        "      <td>1</td>\n",
        "    </tr>\n",
        "    <tr>\n",
-       "      <th>25842</th>\n",
+       "      <th>92648</th>\n",
        "      <td>36</td>\n",
        "      <td>Current</td>\n",
-       "      <td>0.2287</td>\n",
-       "      <td>D</td>\n",
+       "      <td>0.1620</td>\n",
+       "      <td>B</td>\n",
        "      <td>1</td>\n",
        "      <td>Employed</td>\n",
-       "      <td>3.0</td>\n",
-       "      <td>441.666667</td>\n",
-       "      <td>1.0</td>\n",
-       "      <td>2000</td>\n",
-       "      <td>2012-06-13 00:00:00</td>\n",
+       "      <td>29.0</td>\n",
+       "      <td>6250.000000</td>\n",
+       "      <td>NaN</td>\n",
+       "      <td>10000</td>\n",
+       "      <td>2013-09-27 00:00:00</td>\n",
        "      <td>0</td>\n",
-       "      <td>29</td>\n",
+       "      <td>1</td>\n",
        "    </tr>\n",
        "    <tr>\n",
-       "      <th>48892</th>\n",
-       "      <td>36</td>\n",
-       "      <td>Completed</td>\n",
-       "      <td>0.1450</td>\n",
-       "      <td>NaN</td>\n",
-       "      <td>0</td>\n",
-       "      <td>Not available</td>\n",
-       "      <td>0.0</td>\n",
-       "      <td>3916.666667</td>\n",
-       "      <td>NaN</td>\n",
-       "      <td>15000</td>\n",
-       "      <td>2006-10-31 00:00:00</td>\n",
-       "      <td>0</td>\n",
-       "      <td>230</td>\n",
-       "    </tr>\n",
-       "    <tr>\n",
-       "      <th>98442</th>\n",
+       "      <th>89864</th>\n",
        "      <td>36</td>\n",
        "      <td>Current</td>\n",
-       "      <td>0.0769</td>\n",
-       "      <td>AA</td>\n",
-       "      <td>1</td>\n",
-       "      <td>Self-employed</td>\n",
+       "      <td>0.1159</td>\n",
+       "      <td>A</td>\n",
+       "      <td>2</td>\n",
+       "      <td>Other</td>\n",
        "      <td>0.0</td>\n",
-       "      <td>7250.000000</td>\n",
+       "      <td>1691.666667</td>\n",
        "      <td>NaN</td>\n",
-       "      <td>9977</td>\n",
-       "      <td>2014-01-02 00:00:00</td>\n",
+       "      <td>3000</td>\n",
+       "      <td>2014-03-04 00:00:00</td>\n",
        "      <td>0</td>\n",
        "      <td>1</td>\n",
        "    </tr>\n",
        "    <tr>\n",
-       "      <th>66407</th>\n",
+       "      <th>31597</th>\n",
        "      <td>36</td>\n",
-       "      <td>Completed</td>\n",
-       "      <td>0.3134</td>\n",
-       "      <td>HR</td>\n",
-       "      <td>7</td>\n",
-       "      <td>Not employed</td>\n",
-       "      <td>0.0</td>\n",
-       "      <td>0.000000</td>\n",
-       "      <td>NaN</td>\n",
-       "      <td>2000</td>\n",
-       "      <td>2013-04-29 00:00:00</td>\n",
-       "      <td>0</td>\n",
-       "      <td>51</td>\n",
-       "    </tr>\n",
-       "    <tr>\n",
-       "      <th>5185</th>\n",
-       "      <td>60</td>\n",
        "      <td>Current</td>\n",
-       "      <td>0.2432</td>\n",
-       "      <td>D</td>\n",
+       "      <td>0.1110</td>\n",
+       "      <td>A</td>\n",
        "      <td>1</td>\n",
-       "      <td>Employed</td>\n",
-       "      <td>18.0</td>\n",
-       "      <td>5000.000000</td>\n",
-       "      <td>NaN</td>\n",
-       "      <td>7000</td>\n",
-       "      <td>2013-07-10 00:00:00</td>\n",
+       "      <td>Full-time</td>\n",
+       "      <td>0.0</td>\n",
+       "      <td>8358.333333</td>\n",
+       "      <td>2.0</td>\n",
+       "      <td>5000</td>\n",
+       "      <td>2011-10-21 00:00:00</td>\n",
        "      <td>0</td>\n",
-       "      <td>47</td>\n",
+       "      <td>54</td>\n",
        "    </tr>\n",
        "  </tbody>\n",
        "</table>\n",
        "</div>"
       ],
       "text/plain": [
-       "        Term LoanStatus  BorrowerRate ProsperRating (Alpha)  \\\n",
-       "102179    36    Current        0.1435                     B   \n",
-       "25842     36    Current        0.2287                     D   \n",
-       "48892     36  Completed        0.1450                   NaN   \n",
-       "98442     36    Current        0.0769                    AA   \n",
-       "66407     36  Completed        0.3134                    HR   \n",
-       "5185      60    Current        0.2432                     D   \n",
+       "       Term             LoanStatus  BorrowerRate ProsperRating (Alpha)  \\\n",
+       "43952    60                Current        0.1169                     A   \n",
+       "25329    36  Past Due (31-60 days)        0.3134                    HR   \n",
+       "82752    60                Current        0.1840                     C   \n",
+       "92648    36                Current        0.1620                     B   \n",
+       "89864    36                Current        0.1159                     A   \n",
+       "31597    36                Current        0.1110                     A   \n",
        "\n",
-       "        ListingCategory (numeric) EmploymentStatus  DelinquenciesLast7Years  \\\n",
-       "102179                          1         Employed                      0.0   \n",
-       "25842                           1         Employed                      3.0   \n",
-       "48892                           0    Not available                      0.0   \n",
-       "98442                           1    Self-employed                      0.0   \n",
-       "66407                           7     Not employed                      0.0   \n",
-       "5185                            1         Employed                     18.0   \n",
+       "       ListingCategory (numeric) EmploymentStatus  DelinquenciesLast7Years  \\\n",
+       "43952                         20         Employed                      0.0   \n",
+       "25329                         13            Other                      0.0   \n",
+       "82752                          1         Employed                      0.0   \n",
+       "92648                          1         Employed                     29.0   \n",
+       "89864                          2            Other                      0.0   \n",
+       "31597                          1        Full-time                      0.0   \n",
        "\n",
-       "        StatedMonthlyIncome  TotalProsperLoans  LoanOriginalAmount  \\\n",
-       "102179          5000.000000                NaN                5500   \n",
-       "25842            441.666667                1.0                2000   \n",
-       "48892           3916.666667                NaN               15000   \n",
-       "98442           7250.000000                NaN                9977   \n",
-       "66407              0.000000                NaN                2000   \n",
-       "5185            5000.000000                NaN                7000   \n",
+       "       StatedMonthlyIncome  TotalProsperLoans  LoanOriginalAmount  \\\n",
+       "43952          6000.000000                NaN               15000   \n",
+       "25329             0.083333                NaN                4000   \n",
+       "82752          9583.333333                NaN               15000   \n",
+       "92648          6250.000000                NaN               10000   \n",
+       "89864          1691.666667                NaN                3000   \n",
+       "31597          8358.333333                2.0                5000   \n",
        "\n",
-       "        LoanOriginationDate  Recommendations  Investors  \n",
-       "102179  2013-12-09 00:00:00                0          1  \n",
-       "25842   2012-06-13 00:00:00                0         29  \n",
-       "48892   2006-10-31 00:00:00                0        230  \n",
-       "98442   2014-01-02 00:00:00                0          1  \n",
-       "66407   2013-04-29 00:00:00                0         51  \n",
-       "5185    2013-07-10 00:00:00                0         47  "
+       "       LoanOriginationDate  Recommendations  Investors  \n",
+       "43952  2013-07-26 00:00:00                0        132  \n",
+       "25329  2013-02-22 00:00:00                0         58  \n",
+       "82752  2013-12-09 00:00:00                0          1  \n",
+       "92648  2013-09-27 00:00:00                0          1  \n",
+       "89864  2014-03-04 00:00:00                0          1  \n",
+       "31597  2011-10-21 00:00:00                0         54  "
       ]
      },
      "execution_count": 19,
@@ -2013,7 +2013,7 @@
    "metadata": {},
    "outputs": [],
    "source": [
-    "target_df = target_df.dropna(subset=['ProsperRating (Alpha)']).reset_index() # Drop missing values in Prosper Rating"
+    "target_df = target_df.dropna(subset=['ProsperRating (Alpha)']).reset_index()"
    ]
   },
   {
@@ -2022,7 +2022,7 @@
    "metadata": {},
    "outputs": [],
    "source": [
-    "# Convert LoanOriginationDate to datetime datatype\n",
+    "#Convert LoanOriginationDate to datetime datatype\n",
     "target_df['LoanOriginationDate'] = pd.to_datetime(target_df['LoanOriginationDate'])"
    ]
   },
@@ -2032,178 +2032,7 @@
    "metadata": {},
    "outputs": [],
    "source": [
-    "target_df['TotalProsperLoans'] = target_df['TotalProsperLoans'].fillna(0) #fill in missing values Total Prosper Loan"
-   ]
-  },
-  {
-   "cell_type": "code",
-   "execution_count": 51,
-   "metadata": {},
-   "outputs": [
-    {
-     "data": {
-      "text/html": [
-       "<div>\n",
-       "<style scoped>\n",
-       "    .dataframe tbody tr th:only-of-type {\n",
-       "        vertical-align: middle;\n",
-       "    }\n",
-       "\n",
-       "    .dataframe tbody tr th {\n",
-       "        vertical-align: top;\n",
-       "    }\n",
-       "\n",
-       "    .dataframe thead th {\n",
-       "        text-align: right;\n",
-       "    }\n",
-       "</style>\n",
-       "<table border=\"1\" class=\"dataframe\">\n",
-       "  <thead>\n",
-       "    <tr style=\"text-align: right;\">\n",
-       "      <th></th>\n",
-       "      <th>index</th>\n",
-       "      <th>Term</th>\n",
-       "      <th>LoanStatus</th>\n",
-       "      <th>BorrowerRate</th>\n",
-       "      <th>ProsperRating (Alpha)</th>\n",
-       "      <th>ListingCategory (numeric)</th>\n",
-       "      <th>EmploymentStatus</th>\n",
-       "      <th>DelinquenciesLast7Years</th>\n",
-       "      <th>StatedMonthlyIncome</th>\n",
-       "      <th>TotalProsperLoans</th>\n",
-       "      <th>LoanOriginalAmount</th>\n",
-       "      <th>LoanOriginationDate</th>\n",
-       "      <th>Recommendations</th>\n",
-       "      <th>Investors</th>\n",
-       "    </tr>\n",
-       "  </thead>\n",
-       "  <tbody>\n",
-       "    <tr>\n",
-       "      <th>12</th>\n",
-       "      <td>15</td>\n",
-       "      <td>36</td>\n",
-       "      <td>Defaulted</td>\n",
-       "      <td>0.3177</td>\n",
-       "      <td>HR</td>\n",
-       "      <td>Other</td>\n",
-       "      <td>Other</td>\n",
-       "      <td>0.0</td>\n",
-       "      <td>5500.000000</td>\n",
-       "      <td>0.0</td>\n",
-       "      <td>4000</td>\n",
-       "      <td>2012-04-19</td>\n",
-       "      <td>0</td>\n",
-       "      <td>10</td>\n",
-       "    </tr>\n",
-       "    <tr>\n",
-       "      <th>18</th>\n",
-       "      <td>23</td>\n",
-       "      <td>36</td>\n",
-       "      <td>Defaulted</td>\n",
-       "      <td>0.2419</td>\n",
-       "      <td>D</td>\n",
-       "      <td>Other</td>\n",
-       "      <td>Employed</td>\n",
-       "      <td>0.0</td>\n",
-       "      <td>2500.000000</td>\n",
-       "      <td>0.0</td>\n",
-       "      <td>2000</td>\n",
-       "      <td>2013-04-26</td>\n",
-       "      <td>0</td>\n",
-       "      <td>30</td>\n",
-       "    </tr>\n",
-       "    <tr>\n",
-       "      <th>21</th>\n",
-       "      <td>26</td>\n",
-       "      <td>60</td>\n",
-       "      <td>Completed</td>\n",
-       "      <td>0.2809</td>\n",
-       "      <td>E</td>\n",
-       "      <td>Debt Consolidation</td>\n",
-       "      <td>Employed</td>\n",
-       "      <td>0.0</td>\n",
-       "      <td>3885.916667</td>\n",
-       "      <td>0.0</td>\n",
-       "      <td>4000</td>\n",
-       "      <td>2013-02-21</td>\n",
-       "      <td>0</td>\n",
-       "      <td>37</td>\n",
-       "    </tr>\n",
-       "    <tr>\n",
-       "      <th>22</th>\n",
-       "      <td>27</td>\n",
-       "      <td>36</td>\n",
-       "      <td>Completed</td>\n",
-       "      <td>0.0920</td>\n",
-       "      <td>A</td>\n",
-       "      <td>Debt Consolidation</td>\n",
-       "      <td>Full-time</td>\n",
-       "      <td>0.0</td>\n",
-       "      <td>6666.666667</td>\n",
-       "      <td>0.0</td>\n",
-       "      <td>4000</td>\n",
-       "      <td>2010-06-24</td>\n",
-       "      <td>0</td>\n",
-       "      <td>121</td>\n",
-       "    </tr>\n",
-       "    <tr>\n",
-       "      <th>25</th>\n",
-       "      <td>30</td>\n",
-       "      <td>36</td>\n",
-       "      <td>Completed</td>\n",
-       "      <td>0.0999</td>\n",
-       "      <td>A</td>\n",
-       "      <td>Other</td>\n",
-       "      <td>Employed</td>\n",
-       "      <td>10.0</td>\n",
-       "      <td>3750.000000</td>\n",
-       "      <td>0.0</td>\n",
-       "      <td>10000</td>\n",
-       "      <td>2012-02-07</td>\n",
-       "      <td>0</td>\n",
-       "      <td>30</td>\n",
-       "    </tr>\n",
-       "  </tbody>\n",
-       "</table>\n",
-       "</div>"
-      ],
-      "text/plain": [
-       "    index  Term LoanStatus  BorrowerRate ProsperRating (Alpha)  \\\n",
-       "12     15    36  Defaulted        0.3177                    HR   \n",
-       "18     23    36  Defaulted        0.2419                     D   \n",
-       "21     26    60  Completed        0.2809                     E   \n",
-       "22     27    36  Completed        0.0920                     A   \n",
-       "25     30    36  Completed        0.0999                     A   \n",
-       "\n",
-       "   ListingCategory (numeric) EmploymentStatus  DelinquenciesLast7Years  \\\n",
-       "12                     Other            Other                      0.0   \n",
-       "18                     Other         Employed                      0.0   \n",
-       "21        Debt Consolidation         Employed                      0.0   \n",
-       "22        Debt Consolidation        Full-time                      0.0   \n",
-       "25                     Other         Employed                     10.0   \n",
-       "\n",
-       "    StatedMonthlyIncome  TotalProsperLoans  LoanOriginalAmount  \\\n",
-       "12          5500.000000                0.0                4000   \n",
-       "18          2500.000000                0.0                2000   \n",
-       "21          3885.916667                0.0                4000   \n",
-       "22          6666.666667                0.0                4000   \n",
-       "25          3750.000000                0.0               10000   \n",
-       "\n",
-       "   LoanOriginationDate  Recommendations  Investors  \n",
-       "12          2012-04-19                0         10  \n",
-       "18          2013-04-26                0         30  \n",
-       "21          2013-02-21                0         37  \n",
-       "22          2010-06-24                0        121  \n",
-       "25          2012-02-07                0         30  "
-      ]
-     },
-     "execution_count": 51,
-     "metadata": {},
-     "output_type": "execute_result"
-    }
-   ],
-   "source": [
-    "target_df.head()"
+    "target_df['TotalProsperLoans'] = target_df['TotalProsperLoans'].fillna(0)"
    ]
   },
   {
@@ -2287,16 +2116,6 @@
    "cell_type": "code",
    "execution_count": 29,
    "metadata": {},
-   "outputs": [],
-   "source": [
-    "# setting color\n",
-    "base_color = sns.color_palette()[0]"
-   ]
-  },
-  {
-   "cell_type": "code",
-   "execution_count": 30,
-   "metadata": {},
    "outputs": [
     {
      "data": {
@@ -2312,6 +2131,8 @@
     }
    ],
    "source": [
+    "# setting color\n",
+    "base_color = sns.color_palette()[0]\n",
     "plt.xticks(rotation=90)\n",
     "sns.countplot(data = target_df, x = 'LoanStatus', color = base_color);"
    ]
@@ -2350,7 +2171,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 31,
+   "execution_count": 30,
    "metadata": {},
    "outputs": [
     {
@@ -2406,7 +2227,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 32,
+   "execution_count": 31,
    "metadata": {},
    "outputs": [
     {
@@ -2436,7 +2257,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 33,
+   "execution_count": 32,
    "metadata": {},
    "outputs": [
     {
@@ -2445,7 +2266,7 @@
        "245"
       ]
      },
-     "execution_count": 33,
+     "execution_count": 32,
      "metadata": {},
      "output_type": "execute_result"
     }
@@ -2466,7 +2287,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 34,
+   "execution_count": 33,
    "metadata": {},
    "outputs": [
     {
@@ -2520,7 +2341,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 35,
+   "execution_count": 34,
    "metadata": {},
    "outputs": [
     {
@@ -2574,7 +2395,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 36,
+   "execution_count": 35,
    "metadata": {},
    "outputs": [
     {
@@ -2632,7 +2453,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 37,
+   "execution_count": 36,
    "metadata": {},
    "outputs": [
     {
@@ -2643,7 +2464,7 @@
        "Name: LoanStatus, dtype: int64"
       ]
      },
-     "execution_count": 37,
+     "execution_count": 36,
      "metadata": {},
      "output_type": "execute_result"
     }
@@ -2673,7 +2494,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 38,
+   "execution_count": 37,
    "metadata": {},
    "outputs": [
     {
@@ -2687,7 +2508,7 @@
        "Name: ListingCategory (numeric), dtype: int64"
       ]
      },
-     "execution_count": 38,
+     "execution_count": 37,
      "metadata": {},
      "output_type": "execute_result"
     }
@@ -2737,7 +2558,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 39,
+   "execution_count": 38,
    "metadata": {},
    "outputs": [
     {
@@ -2746,7 +2567,7 @@
        "<AxesSubplot:xlabel='LoanStatus', ylabel='count'>"
       ]
      },
-     "execution_count": 39,
+     "execution_count": 38,
      "metadata": {},
      "output_type": "execute_result"
     },
@@ -2773,7 +2594,7 @@
    "source": [
     "### Observation 1:\n",
     "\n",
-    "The most frequent rating among defaulted and Completed loans is D.\n",
+    "The most frequent rating among defaulted and Completed loans is actually D.\n",
     "While the second highest is A and so on."
    ]
   },
@@ -2808,7 +2629,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 40,
+   "execution_count": 39,
    "metadata": {},
    "outputs": [
     {
@@ -2868,7 +2689,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 41,
+   "execution_count": 40,
    "metadata": {},
    "outputs": [
     {
@@ -2928,7 +2749,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 42,
+   "execution_count": 41,
    "metadata": {},
    "outputs": [
     {
@@ -2989,7 +2810,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 43,
+   "execution_count": 49,
    "metadata": {},
    "outputs": [
     {
@@ -3014,7 +2835,7 @@
    "cell_type": "markdown",
    "metadata": {},
    "source": [
-    "### Observation 5\n",
+    "### Observation\n",
     "As seen in the above visual, there is a significant difference between the completed Loan and defaulted Loan of employed and unemployed. The employed tend to complete their loans than the unemployed\n"
    ]
   },
@@ -3056,7 +2877,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 44,
+   "execution_count": 42,
    "metadata": {},
    "outputs": [
     {
@@ -3118,7 +2939,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 45,
+   "execution_count": 43,
    "metadata": {},
    "outputs": [
     {
@@ -3145,7 +2966,7 @@
    "source": [
     "### Observation 2:\n",
     "\n",
-    "1. There are five graphs in the second one has much up and downs in it other than all of them.\n",
+    "1. There are 5 graphs in the second one has much up and downs in it other than all of them.\n",
     "2. There is no substantial difference for default rates in different categories broken up by ratings."
    ]
   },
@@ -3180,7 +3001,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 46,
+   "execution_count": 44,
    "metadata": {},
    "outputs": [
     {
@@ -3213,16 +3034,16 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 47,
+   "execution_count": 45,
    "metadata": {},
    "outputs": [
     {
      "data": {
       "text/plain": [
-       "<seaborn.axisgrid.PairGrid at 0x208486bb0a0>"
+       "<seaborn.axisgrid.PairGrid at 0x1ab8ad6dff0>"
       ]
      },
-     "execution_count": 47,
+     "execution_count": 45,
      "metadata": {},
      "output_type": "execute_result"
     },
@@ -3247,7 +3068,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 48,
+   "execution_count": 46,
    "metadata": {},
    "outputs": [
     {
@@ -3256,7 +3077,7 @@
        "<AxesSubplot:>"
       ]
      },
-     "execution_count": 48,
+     "execution_count": 46,
      "metadata": {},
      "output_type": "execute_result"
     },
@@ -3364,7 +3185,7 @@
    "name": "python",
    "nbconvert_exporter": "python",
    "pygments_lexer": "ipython3",
-   "version": "3.9.12"
+   "version": "3.10.2"
   },
   "vscode": {
    "interpreter": {
