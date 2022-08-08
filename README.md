@@ -1,5 +1,19 @@
-# Prosper Loan Data Exploration and Visualization
+# Communicating Data Findings
+# Part I - Prosper Loan Data Exploration and Visualization
 ## By Ayomide (Enoch) Fadeyi
+
+## Introduction
+> Introduce the dataset
+
+Prosper Loan Dataset contains information on peer to peer loans facilitated by Prosper, a credit company.
+There are 113937 observations(rows) and 81 features(columns).
+
+
+##  General Research Question guiding my analysis
+### What are the main driving factors of outcome of loan?
+
+## Preliminary Wrangling
+
 
 
 ## Prosper Loan Data
