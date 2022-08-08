@@ -16,9 +16,27 @@ LoanOriginalAmount, LoanOriginationDate, Recommendations, Investors.
 
 ## Summary of Findings
 
-> Summarize all of your findings from your exploration here, whether you plan on bringing them into your explanatory presentation or not.
+> ## Conclusions  
+> ### Summary
+*** My initial assumptions were strengthened. Most of the defaulted credits comes from individuals with low Prosper rating and Business category tend to have larger amount.
+
+*** The employed tend to complete their loans than the unemployed
+
+
+### What are the main driving factors of outcome of loan?
+The main driving factors of outcome of loan from the analysis conducted in the project include the following:
+1. Employment
+2. Prosper Rating
+3. Business Category
+
+### Steps taken during my data exploration.
+1. Question: The first step I took to conduct this project is to pose a general research question. From this one question, several other questions were asked and answered.
+2. Analyse: Next, I used different libraries and functions to analyse the data in a bid to proffer answers to the questions posed.
+3. Visualize: Then, I moved on to visualizing the data to aid comprehension and understanding of the findings from my analysis.
+4. Observation: Lastly, I point out and explain my observations and findings to each of this question.
 
 
 ## Key Insights for Presentation
 
-> Select one or two main threads from your exploration to polish up for your presentation. Note any changes in design from your exploration step here.
+> *** Those with low prosper rating are found to have highest rates of default in credits. 
+  *** The business category tend to have larger amount.
