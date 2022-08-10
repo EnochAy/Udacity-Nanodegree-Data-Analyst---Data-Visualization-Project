@@ -1976,35 +1976,6 @@
   },
   {
    "cell_type": "code",
-   "execution_count": null,
-   "metadata": {},
-   "outputs": [],
-   "source": [
-    "#dropping the selected column list above with the 90% null value query\n",
-    "def remv(dff):\n",
-    "\n",
-    "    for column in target_df.columns.values.tolist():\n",
-    "      missing_values = target_df[column].isnull().sum()        #total missing values in a column\n",
-    "      total_rows = len(target_df)                    \n",
-    "      pomv = (missing_values/total_rows)*100            #percentage of missing val in a col\n",
-    "      if pomv>90:\n",
-    "         del(target_df[column])\n",
-    "\n",
-    "    return dff"
-   ]
-  },
-  {
-   "cell_type": "code",
-   "execution_count": null,
-   "metadata": {},
-   "outputs": [],
-   "source": [
-    "#creating a new data frame\n",
-    "target_df  = remv(target_df)"
-   ]
-  },
-  {
-   "cell_type": "code",
    "execution_count": 24,
    "metadata": {},
    "outputs": [
@@ -3455,7 +3426,7 @@
    "name": "python",
    "nbconvert_exporter": "python",
    "pygments_lexer": "ipython3",
-   "version": "3.10.2"
+   "version": "3.9.12"
   },
   "vscode": {
    "interpreter": {
