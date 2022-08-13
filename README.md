@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+=======
+# Udacity-Nanodegree-Data-Analyst---Data-Visualization-Project
+
+>>>>>>> 194bb60a4a79b3ba76123033c592a171307647c8
 # Communicating Data Findings
 # Part I - Prosper Loan Data Exploration and Visualization
 ## By Ayomide (Enoch) Fadeyi
