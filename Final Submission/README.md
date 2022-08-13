@@ -107,3 +107,13 @@ NB: I will only include some of the visuals and observations made in part two (e
   4. Data Visualization using Python Packages (Numpy, Pandas, Matplotlib, Seaborn)
   5. Data Presentation and Communication using Jupyter notebook
 
+
+## Limitations
+1. No Data Dictionary
+2. Time constraints
+
+
+## Further Research
+I will like to carry out a further machine learning and predictive analytics based on the interesting relatioinships I discovered in this analysis.
+
+
