@@ -94,11 +94,11 @@ NB: I will only include some of the visuals and observations made in part two (e
 
 ## Key Insights for Presentation
 
-> *** Those with low prosper rating are found to have highest rates of default in credits. 
+*** Those with low prosper rating are found to have highest rates of default in credits. 
 
-  *** The business category tend to have larger amount. This implies that majority of the loans were gotten for business purposes.
+*** The business category tend to have larger amount. This implies that majority of the loans were gotten for business purposes.
 
-  *** The employed tend to complete their loans than the unemployed
+*** The employed tend to complete their loans than the unemployed
 
   ### Skills
   1. Collaboration with Git and GitHub
