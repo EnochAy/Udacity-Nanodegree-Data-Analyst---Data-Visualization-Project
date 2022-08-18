@@ -117,3 +117,4 @@ NB: I will only include some of the visuals and observations made in part two (e
 I will like to carry out a further machine learning and predictive analytics based on the interesting relatioinships I discovered in this analysis.
 
 
+Links to Slide_Deck, Exploratory and Explanatory Data Analyses: 
