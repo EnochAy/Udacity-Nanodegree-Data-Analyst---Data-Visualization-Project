@@ -118,3 +118,7 @@ I will like to carry out a further machine learning and predictive analytics bas
 
 
 Links to Slide_Deck, Exploratory and Explanatory Data Analyses: 
+https://github.com/EnochAy/Udacity-Nanodegree-Data-Analyst---Data-Visualization-Project/blob/master/Part_I_exploration.ipynb
+https://github.com/EnochAy/Udacity-Nanodegree-Data-Analyst---Data-Visualization-Project/blob/master/Part_II_Explanatory_Analysis.ipynb
+https://github.com/EnochAy/Udacity-Nanodegree-Data-Analyst---Data-Visualization-Project/blob/master/Slide_Deck.ipynb
+
