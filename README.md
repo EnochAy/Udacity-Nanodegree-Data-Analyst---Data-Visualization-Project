@@ -101,11 +101,11 @@ NB: I will only include some of the visuals and observations made in part two (e
 *** The employed tend to complete their loans than the unemployed
 
   ### Skills
-  1. Collaboration with Git and GitHub
-  2. Exploratory Data Analysis using Python Packages (Numpy, Pandas, Matplotlib, Seaborn)
-  3. Explanatory Data Analysis using Python Packages (Numpy, Pandas, Matplotlib, Seaborn)
-  4. Data Visualization using Python Packages (Numpy, Pandas, Matplotlib, Seaborn)
-  5. Data Presentation and Communication using Jupyter notebook
+  1. Collaboration with Git and GitHub.
+  2. Exploratory Data Analysis using Python Packages (Numpy, Pandas, Matplotlib, Seaborn).
+  3. Explanatory Data Analysis using Python Packages (Numpy, Pandas, Matplotlib, Seaborn).
+  4. Data Visualization using Python Packages (Numpy, Pandas, Matplotlib, Seaborn).
+  5. Data Presentation and Communication using Slide Deck created using Jupyter notebook.
 
 
 ## Limitations
